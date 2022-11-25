@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+
+<title>Cadastro</title>
+</head>
+<body>
+	<h1>Cadastro de Pessoas</h1>
+	
+	<form action="/Projeto03/processar" method="post">
+		<fieldset>
+			<legend>Dados da Pessoa</legend>
+			
+			<p><label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome"></p>
+			
+			
+			<p><label for="idade">Idade:</label>
+			<input type="Number" id="idade" name="idade"></p>
+			
+		
+			<p><label for="peso">Peso:</label>
+			<input type="text" id="peso" name="peso"></p>
+			
+			<p>Gênero:
+			<input type="radio" id="Masculino" name="genero" value="masculino">
+			<label for="masculino">Masculino</label>
+			<input type="radio" id="Feminino" name="genero" >
+			<label for="feminino">Feminino</label></p>
+			
+				<p><input type="submit" value="Cadastrar Pessoa">
+			</fieldset>
+	
+	</form>
+		
+</body>
+</html>
